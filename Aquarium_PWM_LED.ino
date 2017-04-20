@@ -383,7 +383,7 @@ void PrintWeekDayOnLCD(void)
 
   DateTime now = RTC.now();
   lcd.setCursor(11, 1);
-  switch(now.dayOfWeek())
+  switch(now.dayOfTheWeek())
   {
   case 0:
     lcd.print("  Sun"); // Noise can write random chars on the LCD. Adding two blank chars before the WeekDay will prevent these random chars.
