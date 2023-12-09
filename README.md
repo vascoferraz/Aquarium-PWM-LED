@@ -49,6 +49,8 @@ Some important remarks that should not be forgotten:
 
 8) This project is no longer supported, so if you encounter strange characters on the LCD, please use an older version of the Arduino IDE (1.0.5 was reported to work).
 
+Finally, you can upload the [code](Aquarium_PWM_LED.ino) to the board.
+
 This is the final result of the illumination system in my South American aquarium biotope:
 
 ![alt text](resources/DSC06334.JPG?raw=true)
